@@ -1,0 +1,14 @@
+/* resetea los estilos por defecto del navegador*/
+
+@import url("reset.css");
+
+/* contiene el posisionamiento del layout*/
+
+@import url("grid.css");
+:root {
+    --ColorMain: #2196F3;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,18 @@
+.container-main {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 100px 100px 100px 100px;
+    background-color: whitesmoke;
+}
+
+.item {
+    border: 1px dashed;
+}
+
+.home {
+    background: var(--ColorMain);
+    height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
